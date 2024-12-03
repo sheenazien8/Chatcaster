@@ -3,9 +3,7 @@
 ![Chatcaster](https://your-image-url-here)  
 
 ## Demo
-<video width="320" height="240" controls>
-  <source src="markdown/demo.mov" type="video/mp4">
-</video>
+![Chatcaster](markdown/demo.gif)  
 
 A sleek desktop application to display keyboard inputs in a chat bubble-style popup. Built with [Wails](https://wails.io/) and Golang, this tool is perfect for streamers, presenters, and developers to add a dynamic visual layer to their work.  
 

@@ -105,6 +105,10 @@ func (a *App) HandleModifier(char rune) string {
 	switch char {
 	case 8:
 		keyChar = "Backspace"
+	case 9:
+		keyChar = "Tab"
+	case 27:
+		keyChar = "Esc"
 	case 13:
 		keyChar = "Enter"
 	case 'A':

@@ -1,4 +1,38 @@
 #app {
     height: 100vh;
     text-align: center;
+    background: transparent;
+    background-color: transparent;
+    -webkit-app-region: drag;
+    /* Optional: makes window draggable */
+    margin: 0;
+}
+
+p {
+    font-size: var(--font-size);
+    background-color: var(--bubble-color);
+    color: var(--font-color);
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: inline-block;
+    max-width: 80%;
+    word-wrap: break-word;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    position: relative;
+}
+
+p::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top-color: rgba(255, 255, 255, 0.8);
+    border-bottom: 0;
+    border-left: 0;
+    margin-left: -5px;
+    margin-bottom: -10px;
 }

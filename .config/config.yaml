@@ -1,0 +1,12 @@
+bubble_chat:
+  show_key:
+    mode: "global"       # Options: 'focus', 'global'
+  display_limit: 2       # Maximum number of chat bubbles to display
+  style:
+    background_color: "#FFFFFF"  # Hex code or color name
+    font_color: "#000000"
+    font_size: "1rem"
+  content:
+    show_user_icon: false  # Enable or disable user icon in chat bubbles
+    user_icon_path: ""  # Path to the user icon image, leave it empty will use default image
+

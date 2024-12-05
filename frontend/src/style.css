@@ -1,12 +1,11 @@
+:root {
+    --bubble-color: rgba(255, 255, 255, 0.8);
+    --font-color: black;
+    --font-size: 1rem;
+}
+
 html,
 body {
-    background: transparent;
-    background-color: transparent;
-    -webkit-app-region: drag;
-    /* Optional: makes window draggable */
-    color: white;
-    margin: 0;
-    color: white;
     font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
         "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
         sans-serif;
@@ -18,37 +17,4 @@ body {
     font-weight: 400;
     src: local(""),
         url("assets/fonts/nunito-v16-latin-regular.woff2") format("woff2");
-}
-
-#app {
-    height: 100vh;
-}
-
-p {
-    font-size: 1rem;
-    background-color: rgba(255, 255, 255, 0.8);
-    color: black;
-    padding: 10px 20px;
-    border-radius: 20px;
-    display: inline-block;
-    max-width: 80%;
-    word-wrap: break-word;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    margin: 10px 0;
-    position: relative;
-}
-
-p::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 20px;
-    width: 0;
-    height: 0;
-    border: 10px solid transparent;
-    border-top-color: rgba(255, 255, 255, 0.8);
-    border-bottom: 0;
-    border-left: 0;
-    margin-left: -5px;
-    margin-bottom: -10px;
 }

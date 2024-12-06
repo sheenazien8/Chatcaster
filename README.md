@@ -38,9 +38,10 @@ Once the application is running, it will display keyboard inputs in a chat bubbl
 ## Roadmap
 * [x] Cast your typing keyboard
 * [ ] Setting for ordering the bubble chat
-* [ ] Setting show key on foucs or global
+* [x] Setting show key on foucs or global
 * [ ] Setting how many chat will be shown
-* [ ] Setting background color for the bubble chat
+* [x] Setting background color for the bubble chat
+* [x] Setting font size
 * [ ] Put image on the chat, like user icon
 
 ## Contributing
